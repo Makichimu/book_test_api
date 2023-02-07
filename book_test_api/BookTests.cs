@@ -39,7 +39,7 @@ namespace book_test_api
         [TestMethod]
         public async Task GetBookById_ValidId_ReturnsSuccessStatusCode()
         {
-            for (int i = 3; i <= 74; i++)
+            for (int i = 1; i <= 74; i++)
             {
                 // Arrange
                 int id = i;
